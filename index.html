@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="generator" content="Hugo 0.84.0" />
+    <title>Gamify.id</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/assets/css/mystyle.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="nav justify-content-between container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><h2>Gamify<span class="title-logo">.id</span></h2></a
+          >
+          <button id="btn-login" type="button" class="btn btn-sm">
+            <a class="login" href="login.html"> Sign in / Create account</a>
+          </button>
+        </div>
+      </nav>
+
+      <nav class="navbar second-navbar navbar-expand-xxl navbar-dark bg-dark">
+        <div class="nav justify-content-between container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button
+            class="nav navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="nav collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="form.html"
+                  >News</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Guide</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Walkhtrough</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tips & Tricks</a>
+              </li>
+              <!-- <li>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search Something..."
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main py-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-8">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#myCarousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <svg
+                    class="bd-placeholder-img"
+                    width="100%"
+                    height="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <rect width="100%" height="100%" fill="#777" />
+                  </svg>
+
+                  <div class="container">
+                    <div class="carousel-caption text-start">
+                      <h5>Example headline.</h5>
+                      <!-- <p>
+                        Some representative placeholder content for the first
+                        slide of the carousel.
+                      </p> -->
+                      <p>
+                        <!-- <a class="btn btn-lg btn-primary" href="#"
+                          >Sign up today</a
+                        > -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <svg
+                    class="bd-placeholder-img"
+                    width="100%"
+                    height="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <rect width="100%" height="100%" fill="#777" />
+                  </svg>
+
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <h1>Another example headline.</h1>
+                      <p>
+                        Some representative placeholder content for the second
+                        slide of the carousel.
+                      </p>
+                      <p>
+                        <a class="btn btn-lg btn-primary" href="#"
+                          >Learn more</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <svg
+                    class="bd-placeholder-img"
+                    width="100%"
+                    height="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  >
+                    <rect width="100%" height="100%" fill="#777" />
+                  </svg>
+
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <h1>One more for good measure.</h1>
+                      <p>
+                        Some representative placeholder content for the third
+                        slide of this carousel.
+                      </p>
+                      <p>
+                        <a class="btn btn-lg btn-primary" href="#"
+                          >Browse gallery</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="section latest">
+              <h5 class="cat-heading">
+                <b>Latest</b>
+              </h5>
+              <!-- <div class="line"></div> -->
+              <article class="post">
+                <div class="thumb">
+                  <img
+                    src="https://assets-prd.ignimgs.com/2023/07/12/brawlhallathumb-1689179431565.jpg?crop=16%3A9&width=282"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h5>
+                      <b>
+                        Master Chief and The Arbiter are Available Now in
+                        Brawlhalla</b
+                      >
+                    </h5>
+                  </div>
+                  <div class="meta">
+                    <div class="meta-author"><span>By</span> [Author]</div>
+                    <div class="meta-date">
+                      <i class="fa-regular fa-clock" style="color: #d90c0c"></i>
+                      1 h ago
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="post">
+                <div class="thumb">
+                  <img
+                    src="https://assets-prd.ignimgs.com/2023/04/03/steam-deck-docks-1680532341327.jpg?crop=16%3A9&width=282"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h5>
+                      <b
+                        >The Best Steam Deck Dock Is Now On Sale for Amazon
+                        Prime Day</b
+                      >
+                    </h5>
+                  </div>
+                  <div class="meta">
+                    <div class="meta-author"><span>By</span> [Author]</div>
+                    <div class="meta-date">
+                      <i class="fa-regular fa-clock" style="color: #d90c0c"></i>
+                      1 h ago
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="section latest-right">
+              <h5 class="cat-heading">
+                <b>Latest</b>
+              </h5>
+              <div class="line"></div>
+              <div class="post">
+                <div class="thumb">
+                  <img
+                    src="https://assets-prd.ignimgs.com/2023/07/12/91kdkczpbsvmc3qfqbaxmhsls2wu0-ljx-p2mgy1x1y-1689186517523.jpg?crop=16%3A9&width=282"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h5>
+                      <b
+                        >The Google Pixel 7 Pro Is the Best Prime Day Phone
+                        Deal</b
+                      >
+                    </h5>
+                  </div>
+                  <div class="meta">
+                    <div class="meta-date">
+                      <i class="fa-regular fa-clock" style="color: #d90c0c"></i>
+                      1 h ago
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="thumb">
+                  <img
+                    src="https://assets-prd.ignimgs.com/2023/07/08/straysouls-thumb-1688775186550.jpg?crop=16%3A9&width=282"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h5>
+                      <b
+                        >Stray Souls - Official Release Window and Composer
+                        Announce Trailer | ID@Xbox Showcase July 2023</b
+                      >
+                    </h5>
+                  </div>
+                  <div class="meta">
+                    <div class="meta-date">
+                      <i class="fa-regular fa-clock" style="color: #d90c0c"></i>
+                      1 h ago
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post">
+                <div class="thumb">
+                  <img
+                    src="https://assets-prd.ignimgs.com/2023/07/12/xbox-ftc-5-blogroll-1689203367250.jpg?crop=16%3A9&width=282"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="title">
+                    <h5>
+                      <b
+                        >Breaking: The FTC Appeals Decision in Recent Trial
+                        Against Xbox</b
+                      >
+                    </h5>
+                  </div>
+                  <div class="meta">
+                    <div class="meta-date">
+                      <i class="fa-regular fa-clock" style="color: #d90c0c"></i>
+                      1 h ago
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

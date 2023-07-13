@@ -1,0 +1,185 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+* {
+  font-family: Arial, "Segoe UI", "Open Sans", Verdana, sans-serif;
+}
+
+/*==================== Header ==================== */
+
+header {
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  /* text-align: center; */
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  /* margin: 15px; */
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: #f8f9fa;
+}
+.nav {
+  margin: 0 16px;
+}
+.navbar {
+  padding: 0 216px;
+}
+#navbar {
+  background-color: rgb(232, 232, 232);
+  /* padding: 20px 0; */
+  /* padding: 0 216px; */
+  height: 70px;
+  border-bottom: 5px solid #d90c0c;
+  background: var(--light, #f8f9fa);
+}
+
+#btn-login {
+  border-radius: 6px;
+  background: #d90c0c;
+  padding: 8px 12px;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.title-logo {
+  color: #d90c0c;
+}
+
+.second-navbar {
+  /* height: 48px; */
+}
+
+.second-navbar .navbar-nav {
+  /* margin: 16px; */
+}
+
+.nav-item {
+  font-size: 14px;
+  height: 40px;
+  margin: 0 1rem;
+}
+.nav-link {
+  /* padding: 0px; */
+  height: 40px;
+}
+
+/*==================== Body ==================== */
+
+.main {
+  /* margin: 0 232px; */
+  padding: 0 232px;
+  /* background-color: #d90c0c; */
+}
+
+.container {
+  margin: 0 16px;
+}
+
+.form {
+  margin: 0 200px;
+  /* background-color: antiquewhite; */
+}
+.form h2 {
+  text-align: center;
+}
+
+/*==================== Carousel ==================== */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 290px;
+  width: 580px;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 290px;
+}
+
+/*==================== Content ==================== */
+
+.section {
+  display: block;
+}
+.line {
+  background: #d9d9d9;
+  position: relative;
+  /* margin-top: -20px; */
+  height: 1px;
+  z-index: -1;
+}
+
+.cat-heading {
+  background: #ffffff;
+  display: inline-block;
+  padding-right: 20px;
+}
+.post {
+  margin-top: 16px;
+  /* margin-bottom: 32px; */
+  overflow: visible;
+  display: flex;
+}
+.thumb img {
+  float: left;
+  display: block;
+  height: 112px;
+  width: 200px;
+  object-fit: cover;
+  margin-right: 16px;
+  /* flex: 0 0 150; */
+  /* margin-top: 16px; */
+}
+
+.latest-right img {
+  float: right;
+  height: 86px;
+  width: 120px;
+  object-fit: cover;
+  margin-left: 16px;
+  /* margin-top: 16px; */
+}
+
+.latest-right .title h5 {
+  font-size: 14px;
+}
+.meta {
+  font-size: 12px;
+}
+.meta-author {
+  margin-right: 24px;
+  width: auto;
+  float: left;
+}
+
+.content {
+  overflow: hidden;
+}
